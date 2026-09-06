@@ -8,4 +8,6 @@ typedef struct {
   float y;
 } Coordenada;
 
+float coordenada_distancia(Coordenada c1, Coordenada c2);
+
 #endif
