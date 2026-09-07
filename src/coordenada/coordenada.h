@@ -8,6 +8,8 @@ typedef struct {
   float y;
 } Coordenada;
 
-float coordenada_distancia(Coordenada c1, Coordenada c2);
+float c_distancia(Coordenada c1, Coordenada c2);
+
+void c_init(Coordenada *c, int x, int y);
 
 #endif
